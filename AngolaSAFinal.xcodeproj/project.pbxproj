@@ -7,14 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0BB9FE44DDB29035DF3F3B98 /* Pods_AngolaSAFinal.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A8EEB7CC96ED7ACF168A9CE /* Pods_AngolaSAFinal.framework */; };
+		46B8C8F71D7528CBE7CBB947 /* Pods_AngolaSAFinalTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A20564F2F260B9BDB26C4C2 /* Pods_AngolaSAFinalTests.framework */; };
+		A18080EAA1376FC233AA1420 /* Pods_AngolaSAFinalUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE45D99F948C31C83BD8420C /* Pods_AngolaSAFinalUITests.framework */; };
 		E93691621DB5EC1400BFDB7B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E93691611DB5EC1400BFDB7B /* AppDelegate.swift */; };
-		E93691641DB5EC1400BFDB7B /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E93691631DB5EC1400BFDB7B /* FirstViewController.swift */; };
-		E93691661DB5EC1400BFDB7B /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E93691651DB5EC1400BFDB7B /* SecondViewController.swift */; };
+		E93691641DB5EC1400BFDB7B /* NewsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E93691631DB5EC1400BFDB7B /* NewsViewController.swift */; };
 		E93691691DB5EC1400BFDB7B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E93691671DB5EC1400BFDB7B /* Main.storyboard */; };
 		E936916B1DB5EC1400BFDB7B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E936916A1DB5EC1400BFDB7B /* Assets.xcassets */; };
 		E936916E1DB5EC1400BFDB7B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E936916C1DB5EC1400BFDB7B /* LaunchScreen.storyboard */; };
 		E93691791DB5EC1400BFDB7B /* AngolaSAFinalTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E93691781DB5EC1400BFDB7B /* AngolaSAFinalTests.swift */; };
 		E93691841DB5EC1400BFDB7B /* AngolaSAFinalUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E93691831DB5EC1400BFDB7B /* AngolaSAFinalUITests.swift */; };
+		E995E32B1DB5EF790009B567 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E995E32A1DB5EF790009B567 /* SecondViewController.swift */; };
+		E9AFCFCF1DB5F7A1009E5976 /* APIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9AFCFCE1DB5F7A1009E5976 /* APIClient.swift */; };
+		E9AFCFD11DB5FCB0009E5976 /* ResponseCollectionSerializable.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9AFCFD01DB5FCB0009E5976 /* ResponseCollectionSerializable.swift */; };
+		E9AFCFD31DB5FD05009E5976 /* ResponseObjectSerializable.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9AFCFD21DB5FD05009E5976 /* ResponseObjectSerializable.swift */; };
+		E9AFCFD51DB5FD10009E5976 /* BackendError.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9AFCFD41DB5FD10009E5976 /* BackendError.swift */; };
+		E9AFCFD91DB60734009E5976 /* NewsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9AFCFD81DB60734009E5976 /* NewsModel.swift */; };
+		E9AFCFDB1DB63999009E5976 /* Varaibles.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9AFCFDA1DB63999009E5976 /* Varaibles.swift */; };
+		E9AFCFDF1DB65BE4009E5976 /* NewsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9AFCFDE1DB65BE4009E5976 /* NewsTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,10 +45,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0A8EEB7CC96ED7ACF168A9CE /* Pods_AngolaSAFinal.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AngolaSAFinal.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		33534110107D911D8D1CC680 /* Pods-AngolaSAFinalUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AngolaSAFinalUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-AngolaSAFinalUITests/Pods-AngolaSAFinalUITests.release.xcconfig"; sourceTree = "<group>"; };
+		4A20564F2F260B9BDB26C4C2 /* Pods_AngolaSAFinalTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AngolaSAFinalTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4E983CB5D6FFBB7A0F904261 /* Pods-AngolaSAFinalUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AngolaSAFinalUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AngolaSAFinalUITests/Pods-AngolaSAFinalUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		A74CECF79D0956BA45B7DC10 /* Pods-AngolaSAFinal.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AngolaSAFinal.release.xcconfig"; path = "Pods/Target Support Files/Pods-AngolaSAFinal/Pods-AngolaSAFinal.release.xcconfig"; sourceTree = "<group>"; };
+		CF770E7526D956199374D8BD /* Pods-AngolaSAFinalTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AngolaSAFinalTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-AngolaSAFinalTests/Pods-AngolaSAFinalTests.release.xcconfig"; sourceTree = "<group>"; };
+		D275DE5D236D33A0A2D41A2E /* Pods-AngolaSAFinalTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AngolaSAFinalTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AngolaSAFinalTests/Pods-AngolaSAFinalTests.debug.xcconfig"; sourceTree = "<group>"; };
+		E3D3C7B49356F2015F32F36D /* Pods-AngolaSAFinal.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AngolaSAFinal.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AngolaSAFinal/Pods-AngolaSAFinal.debug.xcconfig"; sourceTree = "<group>"; };
 		E936915E1DB5EC1400BFDB7B /* AngolaSAFinal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AngolaSAFinal.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E93691611DB5EC1400BFDB7B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		E93691631DB5EC1400BFDB7B /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
-		E93691651DB5EC1400BFDB7B /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		E93691631DB5EC1400BFDB7B /* NewsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsViewController.swift; sourceTree = "<group>"; };
 		E93691681DB5EC1400BFDB7B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E936916A1DB5EC1400BFDB7B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E936916D1DB5EC1400BFDB7B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +66,15 @@
 		E936917F1DB5EC1400BFDB7B /* AngolaSAFinalUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AngolaSAFinalUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E93691831DB5EC1400BFDB7B /* AngolaSAFinalUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AngolaSAFinalUITests.swift; sourceTree = "<group>"; };
 		E93691851DB5EC1400BFDB7B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E995E32A1DB5EF790009B567 /* SecondViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		E9AFCFCE1DB5F7A1009E5976 /* APIClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIClient.swift; sourceTree = "<group>"; };
+		E9AFCFD01DB5FCB0009E5976 /* ResponseCollectionSerializable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ResponseCollectionSerializable.swift; path = ../ResponseCollectionSerializable.swift; sourceTree = "<group>"; };
+		E9AFCFD21DB5FD05009E5976 /* ResponseObjectSerializable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResponseObjectSerializable.swift; sourceTree = "<group>"; };
+		E9AFCFD41DB5FD10009E5976 /* BackendError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BackendError.swift; path = ../BackendError.swift; sourceTree = "<group>"; };
+		E9AFCFD81DB60734009E5976 /* NewsModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NewsModel.swift; path = Assets.xcassets/NewsModel.swift; sourceTree = "<group>"; };
+		E9AFCFDA1DB63999009E5976 /* Varaibles.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Varaibles.swift; sourceTree = "<group>"; };
+		E9AFCFDE1DB65BE4009E5976 /* NewsTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewsTableViewCell.swift; sourceTree = "<group>"; };
+		EE45D99F948C31C83BD8420C /* Pods_AngolaSAFinalUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AngolaSAFinalUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0BB9FE44DDB29035DF3F3B98 /* Pods_AngolaSAFinal.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +90,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				46B8C8F71D7528CBE7CBB947 /* Pods_AngolaSAFinalTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +98,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A18080EAA1376FC233AA1420 /* Pods_AngolaSAFinalUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		331F35ADF24CCC72296D31C9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0A8EEB7CC96ED7ACF168A9CE /* Pods_AngolaSAFinal.framework */,
+				4A20564F2F260B9BDB26C4C2 /* Pods_AngolaSAFinalTests.framework */,
+				EE45D99F948C31C83BD8420C /* Pods_AngolaSAFinalUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		67B9E9BE9765301028131CC1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E3D3C7B49356F2015F32F36D /* Pods-AngolaSAFinal.debug.xcconfig */,
+				A74CECF79D0956BA45B7DC10 /* Pods-AngolaSAFinal.release.xcconfig */,
+				D275DE5D236D33A0A2D41A2E /* Pods-AngolaSAFinalTests.debug.xcconfig */,
+				CF770E7526D956199374D8BD /* Pods-AngolaSAFinalTests.release.xcconfig */,
+				4E983CB5D6FFBB7A0F904261 /* Pods-AngolaSAFinalUITests.debug.xcconfig */,
+				33534110107D911D8D1CC680 /* Pods-AngolaSAFinalUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		E93691551DB5EC1300BFDB7B = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +135,8 @@
 				E93691771DB5EC1400BFDB7B /* AngolaSAFinalTests */,
 				E93691821DB5EC1400BFDB7B /* AngolaSAFinalUITests */,
 				E936915F1DB5EC1400BFDB7B /* Products */,
+				67B9E9BE9765301028131CC1 /* Pods */,
+				331F35ADF24CCC72296D31C9 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,13 +153,20 @@
 		E93691601DB5EC1400BFDB7B /* AngolaSAFinal */ = {
 			isa = PBXGroup;
 			children = (
+				E9AFCFDE1DB65BE4009E5976 /* NewsTableViewCell.swift */,
+				E9AFCFD41DB5FD10009E5976 /* BackendError.swift */,
+				E9AFCFD21DB5FD05009E5976 /* ResponseObjectSerializable.swift */,
+				E9AFCFD01DB5FCB0009E5976 /* ResponseCollectionSerializable.swift */,
 				E93691611DB5EC1400BFDB7B /* AppDelegate.swift */,
-				E93691631DB5EC1400BFDB7B /* FirstViewController.swift */,
-				E93691651DB5EC1400BFDB7B /* SecondViewController.swift */,
+				E93691631DB5EC1400BFDB7B /* NewsViewController.swift */,
+				E9AFCFD81DB60734009E5976 /* NewsModel.swift */,
+				E995E32A1DB5EF790009B567 /* SecondViewController.swift */,
 				E93691671DB5EC1400BFDB7B /* Main.storyboard */,
+				E9AFCFCE1DB5F7A1009E5976 /* APIClient.swift */,
 				E936916A1DB5EC1400BFDB7B /* Assets.xcassets */,
 				E936916C1DB5EC1400BFDB7B /* LaunchScreen.storyboard */,
 				E936916F1DB5EC1400BFDB7B /* Info.plist */,
+				E9AFCFDA1DB63999009E5976 /* Varaibles.swift */,
 			);
 			path = AngolaSAFinal;
 			sourceTree = "<group>";
@@ -135,9 +196,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E93691881DB5EC1400BFDB7B /* Build configuration list for PBXNativeTarget "AngolaSAFinal" */;
 			buildPhases = (
+				FFBC080E59B1BA3E0D111862 /* [CP] Check Pods Manifest.lock */,
 				E936915A1DB5EC1300BFDB7B /* Sources */,
 				E936915B1DB5EC1300BFDB7B /* Frameworks */,
 				E936915C1DB5EC1300BFDB7B /* Resources */,
+				639EC7A381BFB8007512634D /* [CP] Embed Pods Frameworks */,
+				1B98BD0DD310779BDB8A00EA /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -152,9 +216,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E936918B1DB5EC1400BFDB7B /* Build configuration list for PBXNativeTarget "AngolaSAFinalTests" */;
 			buildPhases = (
+				21F5D43916C8BCEFF778D569 /* [CP] Check Pods Manifest.lock */,
 				E93691701DB5EC1400BFDB7B /* Sources */,
 				E93691711DB5EC1400BFDB7B /* Frameworks */,
 				E93691721DB5EC1400BFDB7B /* Resources */,
+				5AD09551BEE2DEB23AC85866 /* [CP] Embed Pods Frameworks */,
+				4C3B3FB640E48098EF1DB5F5 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -170,9 +237,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E936918E1DB5EC1400BFDB7B /* Build configuration list for PBXNativeTarget "AngolaSAFinalUITests" */;
 			buildPhases = (
+				D9E62C6863B67F41ECACBF99 /* [CP] Check Pods Manifest.lock */,
 				E936917B1DB5EC1400BFDB7B /* Sources */,
 				E936917C1DB5EC1400BFDB7B /* Frameworks */,
 				E936917D1DB5EC1400BFDB7B /* Resources */,
+				31C54EB1DDCF184E56C5803F /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -196,15 +265,18 @@
 				TargetAttributes = {
 					E936915D1DB5EC1300BFDB7B = {
 						CreatedOnToolsVersion = 8.0;
+						LastSwiftMigration = 0800;
 						ProvisioningStyle = Automatic;
 					};
 					E93691731DB5EC1400BFDB7B = {
 						CreatedOnToolsVersion = 8.0;
+						LastSwiftMigration = 0800;
 						ProvisioningStyle = Automatic;
 						TestTargetID = E936915D1DB5EC1300BFDB7B;
 					};
 					E936917E1DB5EC1400BFDB7B = {
 						CreatedOnToolsVersion = 8.0;
+						LastSwiftMigration = 0800;
 						ProvisioningStyle = Automatic;
 						TestTargetID = E936915D1DB5EC1300BFDB7B;
 					};
@@ -257,14 +329,144 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1B98BD0DD310779BDB8A00EA /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AngolaSAFinal/Pods-AngolaSAFinal-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		21F5D43916C8BCEFF778D569 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		31C54EB1DDCF184E56C5803F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AngolaSAFinalUITests/Pods-AngolaSAFinalUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4C3B3FB640E48098EF1DB5F5 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AngolaSAFinalTests/Pods-AngolaSAFinalTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5AD09551BEE2DEB23AC85866 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AngolaSAFinalTests/Pods-AngolaSAFinalTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		639EC7A381BFB8007512634D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AngolaSAFinal/Pods-AngolaSAFinal-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D9E62C6863B67F41ECACBF99 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		FFBC080E59B1BA3E0D111862 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		E936915A1DB5EC1300BFDB7B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E93691661DB5EC1400BFDB7B /* SecondViewController.swift in Sources */,
+				E995E32B1DB5EF790009B567 /* SecondViewController.swift in Sources */,
 				E93691621DB5EC1400BFDB7B /* AppDelegate.swift in Sources */,
-				E93691641DB5EC1400BFDB7B /* FirstViewController.swift in Sources */,
+				E9AFCFDF1DB65BE4009E5976 /* NewsTableViewCell.swift in Sources */,
+				E9AFCFD31DB5FD05009E5976 /* ResponseObjectSerializable.swift in Sources */,
+				E9AFCFD51DB5FD10009E5976 /* BackendError.swift in Sources */,
+				E9AFCFDB1DB63999009E5976 /* Varaibles.swift in Sources */,
+				E9AFCFD11DB5FCB0009E5976 /* ResponseCollectionSerializable.swift in Sources */,
+				E93691641DB5EC1400BFDB7B /* NewsViewController.swift in Sources */,
+				E9AFCFCF1DB5F7A1009E5976 /* APIClient.swift in Sources */,
+				E9AFCFD91DB60734009E5976 /* NewsModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -337,6 +539,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -387,6 +590,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -414,7 +618,9 @@
 		};
 		E93691891DB5EC1400BFDB7B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E3D3C7B49356F2015F32F36D /* Pods-AngolaSAFinal.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = AngolaSAFinal/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -426,7 +632,9 @@
 		};
 		E936918A1DB5EC1400BFDB7B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A74CECF79D0956BA45B7DC10 /* Pods-AngolaSAFinal.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = AngolaSAFinal/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -438,6 +646,7 @@
 		};
 		E936918C1DB5EC1400BFDB7B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D275DE5D236D33A0A2D41A2E /* Pods-AngolaSAFinalTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -452,6 +661,7 @@
 		};
 		E936918D1DB5EC1400BFDB7B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CF770E7526D956199374D8BD /* Pods-AngolaSAFinalTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -466,6 +676,7 @@
 		};
 		E936918F1DB5EC1400BFDB7B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4E983CB5D6FFBB7A0F904261 /* Pods-AngolaSAFinalUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = AngolaSAFinalUITests/Info.plist;
@@ -479,6 +690,7 @@
 		};
 		E93691901DB5EC1400BFDB7B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 33534110107D911D8D1CC680 /* Pods-AngolaSAFinalUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = AngolaSAFinalUITests/Info.plist;
@@ -509,6 +721,7 @@
 				E936918A1DB5EC1400BFDB7B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E936918B1DB5EC1400BFDB7B /* Build configuration list for PBXNativeTarget "AngolaSAFinalTests" */ = {
 			isa = XCConfigurationList;
@@ -517,6 +730,7 @@
 				E936918D1DB5EC1400BFDB7B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E936918E1DB5EC1400BFDB7B /* Build configuration list for PBXNativeTarget "AngolaSAFinalUITests" */ = {
 			isa = XCConfigurationList;
@@ -525,6 +739,7 @@
 				E93691901DB5EC1400BFDB7B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
